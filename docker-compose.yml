@@ -1,0 +1,20 @@
+version: '3.3'
+
+services:
+
+  azat:
+    image: apenjiyev/docker:v6
+    ports:
+      - "8080:80"
+
+
+  azat
+    image: apenjiyev/docker:v6
+    ports:
+      - "8081:80"
+
+
+  leila:
+    image: leiladevops/my-app:v5
+    ports:
+      - "8082:8   
